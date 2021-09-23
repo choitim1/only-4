@@ -1,0 +1,150 @@
+
+ @import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap&subset=cyrillic-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&display=swap&subset=cyrillic-ext"); 
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url(../fonts/UbuntuMono-Italic.woff2) format('woff2'),
+        url(../fonts/UbuntuMono-Italic.woff) format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Hellenica Serif Pro';
+    src: url(../fonts/PFHellenicaSerifPro-Regular.woff2) format('woff2'),
+        url(../fonts/PFHellenicaSerifPro-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family:"PT+Sans", serif;
+}
+h1{
+	font-family:'PF Hellenica Serif Pro',sans-serif ;
+	font-size: 30px;
+	text-align: center;}
+	
+img {
+	vertical-align: top; 
+ } 
+body {font-family: 'Ubuntu Mono', sans-serif;
+   line-height: 1;} 
+   .lat{background-color: black;
+	color:blanchedalmond
+	
+   }
+   li{ 
+	   text-decoration-line: underline;
+   }
+   .cont{ text-align: center;
+	color:rgba(206, 121, 10, 0.767);
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.inf{
+	text-align: right;text-decoration-line: line-through;
+	color:chartreuse
+}
+.traffic{
+	font-family:"Open+Sans+Condensed",  sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	text-shadow: 5px 5px 4px rgb(7, 50, 98) ;
+	color:teal
+	
+}
+.home{
+	font-size: 18px;
+	color:crimson;
+	text-transform: capitalize;
+	font-weight:700;
+
+}
+.latam{font-family:'PF Hellenica Serif Pro', sans-serif;
+	word-spacing: 3px;
+	line-height: 30px;
+
+}
+.prob{
+	letter-spacing: 3PX;
+	text-indent: 50px;
+	color:black;
+	background-color:rgb(176, 211, 206)
+
+}
+.two{
+	text-transform: uppercase;text-align: right;
+	text-decoration: overline;color:dimgrey;
+	font-family:'PF Hellenica Serif Pro';
+	
+	line-height: 150%;
+
+	
+}
+.three{
+	letter-spacing:  5px;color:fuchsia;
+	word-spacing: 15px;
+	text-align: justify;
+	font-family:"Open+Sans+Condensed";
+	font-style: italic;
+	font-weight: 300;
+	
+}
+.usa{font-family:"Pacifico", serif;
+	font-size: 18px;
+	word-spacing: 10px; 
+	line-height: 200%;
+	text-indent: 100px;
+
+}
+.title{
+	border-width: 2px;
+	border-style: solid;
+	border-color: chocolate;
+	padding: 10px;
+	text-align:right;
+	text-decoration: underline;
+}
+.last {
+	font-family:"Open+Sans+Condensed",sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	color:rgb(84, 83, 134);
+	line-height: 150%;}
+
+
+ .war {
+	font-size: 30px;
+	color:rgb(110, 24, 92);
+	text-shadow: -2px -3px 2px}
+
+
